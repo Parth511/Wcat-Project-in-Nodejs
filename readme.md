@@ -30,3 +30,7 @@ This command is used to display or make a copy of content of one or more files i
 1- If file entered is not found then it gives file does not exist error message
 
 2- -n and -b are mutually exclusive options, so if user types both of them together it should give an error instead of executing both.
+
+#### Files 
+
+The main input and fucntion calls are done in wcat.js file and remaining features are implemented in their own separate files using the module import functionality on nodejs. This makes the complete code a lot more modular and easy to debug/change according to requirement.

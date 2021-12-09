@@ -23,7 +23,7 @@ This command is used to display or make a copy of content of one or more files i
 
 9- we can also mix and mathc the options
 
-Note - 6, 7 and 8 are Operating System features in CLI terminal.
+### Note - 6, 7 and 8 are Operating System features in CLI terminal.
 
 
 ## Corner Cases

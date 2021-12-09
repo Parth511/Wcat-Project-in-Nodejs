@@ -45,6 +45,12 @@ for (let i = 0; i < filesArr.length; i++) {
 let contentArr = content.split("\r\n")
 // console.log(contentArr)
 
+// If options array is empty, just display the file contents concatenated in order
+if(optionsArr.length==0){
+    for(let i=0; i<contentArr.length; i++)
+        console.log(contentArr[i])
+}
+
 // For -s option if present, call sOption function
 let isSPresent = optionsArr.includes("-s")
 if (isSPresent) {
